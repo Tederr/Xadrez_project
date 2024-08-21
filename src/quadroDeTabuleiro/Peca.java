@@ -2,12 +2,12 @@ package quadroDeTabuleiro;
 
 public class Peca {
 	
-	protected Posicao posiçao;
+	protected Posicao posicao;
 	private Tabuleiro tabuleiro;
 
 	public Peca(Tabuleiro tabuleiro) {
 		this.tabuleiro = tabuleiro;
-		posiçao = null;
+		posicao = null;
 	}
 
 	protected Tabuleiro getTabuleiro() {
