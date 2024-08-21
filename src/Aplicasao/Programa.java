@@ -1,9 +1,12 @@
 package Aplicasao;
 
+import quadroDeTabuleiro.Posicao;
+
 public class Programa {
 
 	public static void main(String[] args) {
-		System.out.println("ola");
+		Posicao pos = new Posicao(3, 5);
+		System.out.println(pos);
 
 	}
 
