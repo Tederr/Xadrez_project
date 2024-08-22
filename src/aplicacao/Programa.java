@@ -1,4 +1,4 @@
-package Aplicasao;
+package aplicacao;
 
 import xadrez.PartidaDeXadrez;
 
